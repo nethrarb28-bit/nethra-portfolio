@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nethra R | Full Stack Developer &amp; Cyber Security Student</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased">
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-50 bg-slate-950/90 backdrop-blur border-b border-slate-800">
+    <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="#home" class="text-xl font-bold tracking-tight text-indigo-400">
+        &lt;Nethra R /&gt;
+      </a>
+
+      <!-- Desktop Menu -->
+      <ul class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+        <li><a href="#about" class="hover:text-indigo-400 transition">About</a></li>
+        <li><a href="#skills" class="hover:text-indigo-400 transition">Skills</a></li>
+        <li><a href="#projects" class="hover:text-indigo-400 transition">Projects</a></li>
+        <li><a href="#contact" class="hover:text-indigo-400 transition">Contact</a></li>
+      </ul>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="menu-btn" aria-label="Toggle Menu" class="md:hidden p-2 rounded-lg text-slate-300 hover:bg-slate-800">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </nav>
+
+    <!-- Mobile Dropdown -->
+    <div id="mobile-menu" class="hidden md:hidden bg-slate-900 border-b border-slate-800 px-4 pt-2 pb-4 space-y-2">
+      <a href="#about" class="block py-2 text-slate-300 hover:text-indigo-400">About</a>
+      <a href="#skills" class="block py-2 text-slate-300 hover:text-indigo-400">Skills</a>
+      <a href="#projects" class="block py-2 text-slate-300 hover:text-indigo-400">Projects</a>
+      <a href="#contact" class="block py-2 text-slate-300 hover:text-indigo-400">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 flex flex-col items-start justify-center">
+    <span class="px-3 py-1 text-xs font-semibold tracking-wider uppercase bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 rounded-full mb-4">
+      B.E. CSE (Cyber Security) &bull; Aspiring Full Stack Developer
+    </span>
+    <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6">
+      Hi, I'm <span class="text-indigo-400">Nethra R</span>.<br />
+      Building secure, responsive web applications.
+    </h1>
+    <p class="max-w-2xl text-lg text-slate-400 mb-8 leading-relaxed">
+      Computer Science Engineering student specializing in Cyber Security at Sri Shakthi Institute of Engineering and Technology, Coimbatore (CGPA: 8.77/10, Batch of 2029), eager to grow in full-stack development and web security.
+    </p>
+    <div class="flex flex-wrap gap-4">
+      <a href="#projects" class="px-6 py-3 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium transition">
+        View Projects
+      </a>
+      <a href="#contact" class="px-6 py-3 rounded-lg border border-slate-700 hover:border-slate-500 text-slate-200 font-medium transition">
+        Contact Me
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="border-t border-slate-800/80 bg-slate-900/40 py-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-white mb-6">About Me</h2>
+      <div class="grid md:grid-cols-2 gap-8 text-slate-300 leading-relaxed">
+        <p>
+          I am pursuing a <strong class="text-white">Bachelor of Engineering (B.E.) in Computer Science Engineering (Cyber Security)</strong> at <strong class="text-white">Sri Shakthi Institute of Engineering and Technology, Coimbatore</strong> (Expected Graduation: 2029, CGPA: 8.77/10). I focus on creating secure, user-friendly web applications while strengthening both frontend and backend engineering skills.
+        </p>
+        <p>
+          My core interests include <strong class="text-white">Full Stack Development</strong>, <strong class="text-white">Secure Web Application Development</strong>, <strong class="text-white">Web Security</strong>, <strong class="text-white">Database Management</strong>, and <strong class="text-white">Cloud Fundamentals</strong>. I value adaptability, problem-solving, and team collaboration.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <h2 class="text-3xl font-bold text-white mb-10">Technical Skills</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Frontend -->
+      <div class="p-6 rounded-xl bg-slate-900 border border-slate-800">
+        <h3 class="text-lg font-semibold text-indigo-400 mb-4">Frontend</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 text-sm rounded-md bg-slate-800 text-slate-200">HTML5</span>
+          <span class="px-3 py-1 text-sm rounded-md bg-slate-800 text-slate-200">CSS3</span>
+          <span class="px-3 py-1 text-sm rounded-md bg-slate-800 text-slate-200">JavaScript</span>
+          <span class="px-3 py-1 text-sm rounded-md bg-slate-800 text-slate-200">React.js</span>
+        </div>
+      </div>
+
+      <!-- Backend & Database -->
+      <div class="p-6 rounded-xl bg-slate-900 border border-slate-800">
+        <h3 class="text-lg font-semibold text-indigo-400 mb-4">Backend &amp; Databases</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 text-sm rounded-md bg-slate-800 text-slate-200">Python</span>
+          <span class="px-3 py-1 text-sm rounded-md bg-slate-800 text-slate-200">Flask</span>
+          <span class="px-3 py-1 text-sm rounded-md bg-slate-800 text-slate-200">MySQL</span>
+          <span class="px-3 py-1 text-sm rounded-md bg-slate-800 text-slate-200">SQLite</span>
+        </div>
+      </div>
+
+      <!-- Tools & Core Concepts -->
+      <div class="p-6 rounded-xl bg-slate-900 border border-slate-800">
+        <h3 class="text-lg font-semibold text-indigo-400 mb-4">Tools &amp; Core Concepts</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 text-sm rounded-md bg-slate-800 text-slate-200">Git</span>
+          <span class="px-3 py-1 text-sm rounded-md bg-slate-800 text-slate-200">GitHub</span>
+          <span class="px-3 py-1 text-sm rounded-md bg-slate-800 text-slate-200">Visual Studio Code</span>
+          <span class="px-3 py-1 text-sm rounded-md bg-slate-800 text-slate-200">REST APIs</span>
+          <span class="px-3 py-1 text-sm rounded-md bg-slate-800 text-slate-200">Responsive Web Design</span>
+          <span class="px-3 py-1 text-sm rounded-md bg-slate-800 text-slate-200">Networking</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Gallery -->
+  <section id="projects" class="border-t border-slate-800/80 bg-slate-900/40 py-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-white mb-10">Academic &amp; Featured Projects</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+
+        <!-- Project 1: AENET -->
+        <article class="flex flex-col justify-between p-6 rounded-xl bg-slate-900 border border-slate-800 hover:border-indigo-500/50 transition">
+          <div>
+            <h3 class="text-xl font-bold text-white mb-2">AENET – AI-Based Adaptive Emergency Communication Network</h3>
+            <p class="text-slate-400 text-sm mb-4 leading-relaxed">
+              Developing a web-based emergency communication prototype using React, Flask, Python, and SQLite with network-aware message prioritization.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="text-xs px-2.5 py-1 rounded bg-indigo-500/10 text-indigo-300">React</span>
+              <span class="text-xs px-2.5 py-1 rounded bg-indigo-500/10 text-indigo-300">Flask</span>
+              <span class="text-xs px-2.5 py-1 rounded bg-indigo-500/10 text-indigo-300">Python</span>
+              <span class="text-xs px-2.5 py-1 rounded bg-indigo-500/10 text-indigo-300">SQLite</span>
+            </div>
+          </div>
+          <div class="flex gap-4 text-sm font-medium">
+            <a href="https://github.com/" target="_blank" rel="noreferrer" class="text-indigo-400 hover:underline">View on GitHub &rarr;</a>
+          </div>
+        </article>
+
+        <!-- Project 2: Form Autofill System -->
+        <article class="flex flex-col justify-between p-6 rounded-xl bg-slate-900 border border-slate-800 hover:border-indigo-500/50 transition">
+          <div>
+            <h3 class="text-xl font-bold text-white mb-2">Form Autofill System</h3>
+            <p class="text-slate-400 text-sm mb-4 leading-relaxed">
+              Built a browser-based form utility using HTML to streamline repetitive form entry and improve user workflow speed.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="text-xs px-2.5 py-1 rounded bg-indigo-500/10 text-indigo-300">HTML</span>
+              <span class="text-xs px-2.5 py-1 rounded bg-indigo-500/10 text-indigo-300">Web Utility</span>
+            </div>
+          </div>
+          <div class="flex gap-4 text-sm font-medium">
+            <a href="https://github.com/" target="_blank" rel="noreferrer" class="text-indigo-400 hover:underline">View on GitHub &rarr;</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section with Validation -->
+  <section id="contact" class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <h2 class="text-3xl font-bold text-white mb-3">Contact Me</h2>
+    <p class="text-slate-400 mb-2">Coimbatore, Tamil Nadu, India</p>
+    <p class="text-slate-400 text-sm mb-8">
+      Connect on <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" class="text-indigo-400 hover:underline">LinkedIn</a> or send a message using the form below.
+    </p>
+
+    <form id="contact-form" novalidate class="space-y-6 bg-slate-900 p-6 sm:p-8 rounded-xl border border-slate-800">
+      <!-- Name -->
+      <div>
+        <label for="name" class="block text-sm font-medium text-slate-300 mb-2">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"
+          class="w-full px-4 py-2.5 rounded-lg bg-slate-950 border border-slate-700 text-white focus:outline-none focus:border-indigo-500" />
+        <p id="name-error" class="hidden mt-1.5 text-xs text-rose-400">Please enter your name (at least 2 characters).</p>
+      </div>
+
+      <!-- Email -->
+      <div>
+        <label for="email" class="block text-sm font-medium text-slate-300 mb-2">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com"
+          class="w-full px-4 py-2.5 rounded-lg bg-slate-950 border border-slate-700 text-white focus:outline-none focus:border-indigo-500" />
+        <p id="email-error" class="hidden mt-1.5 text-xs text-rose-400">Please enter a valid email address.</p>
+      </div>
+
+      <!-- Message -->
+      <div>
+        <label for="message" class="block text-sm font-medium text-slate-300 mb-2">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write your message..."
+          class="w-full px-4 py-2.5 rounded-lg bg-slate-950 border border-slate-700 text-white focus:outline-none focus:border-indigo-500"></textarea>
+        <p id="message-error" class="hidden mt-1.5 text-xs text-rose-400">Please enter a message (at least 10 characters).</p>
+      </div>
+
+      <button type="submit"
+        class="w-full sm:w-auto px-6 py-3 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium transition">
+        Send Message
+      </button>
+
+      <!-- Success Feedback -->
+      <div id="form-success" class="hidden p-4 rounded-lg bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-sm">
+        Thank you! Your message passed validation and is ready.
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800 py-8 text-center text-sm text-slate-500">
+    <p>&copy; 2026 Nethra R &bull; Coimbatore, Tamil Nadu</p>
+  </footer>
+
+  <!-- Interactive Scripts (Mobile Menu + Form Validation) -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+    });
+
+    const form = document.getElementById('contact-form');
+    const nameInput = document.getElementById('name');
+    const emailInput = document.getElementById('email');
+    const messageInput = document.getElementById('message');
+
+    const nameError = document.getElementById('name-error');
+    const emailError = document.getElementById('email-error');
+    const messageError = document.getElementById('message-error');
+    const successBanner = document.getElementById('form-success');
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      let isValid = true;
+      successBanner.classList.add('hidden');
+
+      if (nameInput.value.trim().length < 2) {
+        nameError.classList.remove('hidden');
+        nameInput.classList.add('border-rose-500');
+        isValid = false;
+      } else {
+        nameError.classList.add('hidden');
+        nameInput.classList.remove('border-rose-500');
+      }
+
+      if (!emailRegex.test(emailInput.value.trim())) {
+        emailError.classList.remove('hidden');
+        emailInput.classList.add('border-rose-500');
+        isValid = false;
+      } else {
+        emailError.classList.add('hidden');
+        emailInput.classList.remove('border-rose-500');
+      }
+
+      if (messageInput.value.trim().length < 10) {
+        messageError.classList.remove('hidden');
+        messageInput.classList.add('border-rose-500');
+        isValid = false;
+      } else {
+        messageError.classList.add('hidden');
+        messageInput.classList.remove('border-rose-500');
+      }
+
+      if (isValid) {
+        successBanner.classList.remove('hidden');
+        form.reset();
+      }
+    });
+  </script>
+</body>
+</html>

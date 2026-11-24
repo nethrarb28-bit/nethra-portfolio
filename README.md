@@ -3,8 +3,8 @@
 Responsive portfolio website built for **Task 2** of the **YR NOVATECH** internship.
 
 ## Deliverables
-- **Live Deployment URL:** `[Add your GitHub Pages / Vercel / Netlify link]`
-- **GitHub Repository:** `[Add your GitHub repo link]`
+- **Live Deployment URL:** `https://nethrarb28-bit.github.io/nethra-portfolio/`
+- **GitHub Repository:** `https://github.com/nethrarb28-bit/nethra-portfolio`
 
 ## Approach & Structure
 - **Responsive Layout:** Built with HTML5 and Tailwind CSS (`grid` and `flex` layouts) with a mobile menu toggle in JavaScript.
